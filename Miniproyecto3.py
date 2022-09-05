@@ -210,7 +210,6 @@ while entrada!="STOP":
         #print(listaInputIngredientes)
         try:
             for i in range(len(listaInputIngredientes)):
-                print(listaInputIngredientes[i])
                 variable=listaInputIngredientes[i]
 
                 diccionarioIngredientes[variable]=diccionarioIngredientes[variable]+1
@@ -227,7 +226,7 @@ while entrada!="STOP":
 
     else:
         #print("Ingrese un comando correcto --Solo los comandos correctos se agregaron--")
-        print("Ingresa la receta que quieres o REPONERa :")
+        print("Ingresa la receta que quieres o REPONER :")
         entrada= input().upper()
         print(entrada)
 
